@@ -85,8 +85,10 @@ img {
   margin: 0 auto;
 }
 
-#new-advice:hover {
-  box-shadow: 0 0 20px 0 var(--neon-green);
+@media (hover: hover) {
+  #new-advice:hover {
+    box-shadow: 0 0 20px 0 var(--neon-green);
+  }
 }
 
 @media (min-width: 700px) {

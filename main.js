@@ -3,7 +3,8 @@ const adviceQuote = document.querySelector("#advice-quote");
 const newAdviceBtn = document.querySelector("#new-advice");
 
 window.addEventListener("load", getQuote);
-newAdviceBtn.addEventListener("click", getQuote);
+// newAdviceBtn.addEventListener("click", getQuote);
+newAdviceBtn.addEventListener("touchend", getQuote);
 
 async function getQuote() {
   let response = await fetch("https://api.adviceslip.com/advice");
