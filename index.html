@@ -4,21 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./style.css" />
     <title>Advice Generator</title>
   </head>
   <body>
-    <section class="advice">
-      <h1 class="advice__title">
-        ADVICE <span># <span class="advice__id"></span></span>
-      </h1>
-      <article class="advice__quotes">
-        <p class="advice__quote"></p>
-      </article>
-      <div class="advice__divider"></div>
-      <div class="advice__random-adivce"></div>
-    </section>
+    <div class="container">
+      <section class="advice">
+        <h1 class="advice__title">
+          ADVICE <span># <span id="advice-id" class="advice__id"></span></span>
+        </h1>
+        <article class="advice__quotes">
+          <p id="advice-quote" class="advice__quote"></p>
+        </article>
+        <div class="advice__divider">
+          <img src="./images/pattern-divider-mobile.svg" alt="" />
+        </div>
+        <div class="advice__random-adivce">
+          <a id="new-advice">
+            <div class="div">
+              <img src="./images/icon-dice.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
     <!-- Script -->
     <script src="./main.js" defer></script>
   </body>
