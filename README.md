@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Advice App Generator Github](https://github.com/atharvpote/Advice-Generator-App)
-- Live Site URL: [Advice App Generator](https://atharvpote.github.io/Advice-Generator-App/)
+- Solution URL: [Advice Generator App Github](https://github.com/atharvpote/Advice-Generator-App)
+- Live Site URL: [Advice Generator App](https://atharvpote.github.io/Advice-Generator-App/)
 
 ## My process
 
